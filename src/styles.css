@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.suminfo{
+    text-align: center;
+    color: red;
+}
+
+.counter {
+    display: flex;
+    align-items: baseline;
+    height: 80px;
+    width: 300px;
+    margin: 1rem auto;
+    text-align: center;
+    padding: 10px;
+    border: 8px solid  ;
+    color: brown;
+    background-color: plum;
+    border-radius: 20px
+
+}
+
+.counter > * {
+    height: 100%;
+    flex: 1;
+    font-size: 24px;
+}
+.text-center{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+.but{
+    border-radius: 20px;
+    background-color: pink;
+}
